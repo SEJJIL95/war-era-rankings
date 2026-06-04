@@ -5,6 +5,7 @@ import PlayerTable from './components/PlayerTable';
 import Instructions from './components/Instructions';
 import { Player } from './types';
 import { getPlayersAroundInLeaderboard } from './services/playerService';
+import { Analytics } from "@vercel/analytics/react"
 
 const App: React.FC = () => {
   const [apiToken, setApiToken] = useState<string>('');
