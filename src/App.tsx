@@ -56,6 +56,7 @@ const App: React.FC = () => {
 
   return (
     <div style={styles.app}>
+    <Analytics />
       <div style={styles.animatedBg}></div>
       <div style={styles.container}>
         <header style={styles.header}>
